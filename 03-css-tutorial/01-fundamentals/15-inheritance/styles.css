@@ -1,0 +1,15 @@
+/* INHERITANCE */
+/* Children inherit styles from the parent, unless have their own styles  */
+
+body {
+  color: red;
+}
+.special {
+  color: green;
+}
+h2 {
+  color: blue;
+}
+div {
+  color: greenyellow;
+}
