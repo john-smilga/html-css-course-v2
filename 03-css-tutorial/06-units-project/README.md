@@ -1,4 +1,4 @@
-## CSS Colors Project
+## CSS Units Project
 
 #### Setup
 
@@ -23,6 +23,6 @@
 - set margin 0 to all elements "\* {margin:0}"
 - for navbar - set height and add background color
 - for logo - set font-size and add color
-- for hero - set color, background, and min-height with calc (subtract navbar height from 100% of the screen hight)
+- for hero - set color, background, and min-height with calc (subtract navbar height from 100% of the screen height)
 - for span - add color and font-size
 - for button - background and color
