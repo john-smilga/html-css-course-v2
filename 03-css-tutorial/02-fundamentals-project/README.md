@@ -2,9 +2,9 @@
 
 #### Setup
 
-- create folder (fundamentals)
+- create folder (css-fundamentals)
 - create index.html (general structure - emmet !)
-- give it a title (fundamentals)
+- give it a title (css fundamentals)
 - create css file (main, styles etc)
 - link to css file in html (head element)
 
