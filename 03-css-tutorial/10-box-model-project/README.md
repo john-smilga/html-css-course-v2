@@ -30,6 +30,7 @@
 #### CSS (styles)
 
 - select body, add system fonts and background (#f1f5f9)
+
 - select .card, add background(#fff), padding, align text in the center, max-width, margin, border-radius, border
 
 - select .card-1, add border color (#ff69a6)

@@ -1,16 +1,17 @@
 /* 
-colors 
-light grey - #f1f5f9
-white - #fff
-light pink - #ffe8f1
-dark pink - #ff69a6
-light blue - #ecf4ff
-dark blue - #68a3ff
+
+- light grey #f1f5f9
+- white #fff
+- light pink #ffe8f1
+- dark pink #ff69a6
+- light blue #ecf4ff
+- dark blue #68a3ff
+
 */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: #f1f5f9;
 }
 
@@ -22,9 +23,9 @@ body {
   margin: 3rem;
   border-radius: 0.5rem;
   border: 1px solid transparent;
-  /* cover in display property section */
   margin: 3rem auto;
 }
+
 .card-1 {
   border-color: #ff69a6;
 }
@@ -32,10 +33,11 @@ body {
 .icon {
   width: 40px;
   height: 40px;
+  /* background: red; */
   border-radius: 50%;
-  /* cover in display property section */
   margin: 0 auto;
 }
+
 .card-1 .icon {
   background: #ff69a6;
 }
@@ -46,14 +48,7 @@ body {
 }
 .text {
   line-height: 1.5;
-  color: #64748b;
-}
-
-.card-2 .icon {
-  background: #68a3ff;
-}
-.card-2 {
-  border-color: #68a3ff;
+  color: grey;
 }
 
 .btn {
@@ -63,6 +58,7 @@ body {
   padding: 0.5rem 1rem;
   letter-spacing: 2px;
 }
+
 .btn-pink {
   background: #ffe8f1;
   color: #ff69a6;
@@ -70,4 +66,12 @@ body {
 .btn-blue {
   background: #ecf4ff;
   color: #68a3ff;
+}
+
+.card-2 .icon {
+  background: #68a3ff;
+}
+
+.card-2 {
+  border-color: #68a3ff;
 }
