@@ -1,0 +1,20 @@
+/* 
+text-align, text-indent
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500i,700|Trade+Winds&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+}
+.main-heading {
+  font-family: "Trade Winds", cursive;
+  text-align: center;
+}
+.sub-heading {
+}
+.one {
+}
+.two {
+  text-align: left;
+  text-indent: 6rem;
+}

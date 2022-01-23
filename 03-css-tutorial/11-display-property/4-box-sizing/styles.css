@@ -1,0 +1,30 @@
+/* 
+ box-sizing:border-box
+ default content-box
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 1.5rem;
+}
+.box-1 {
+  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box-2 {
+  background: blue;
+}
+.box-3 {
+  background: green;
+  padding: 20px;
+}

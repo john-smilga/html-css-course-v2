@@ -5,7 +5,7 @@
 - create folder (typography)
 - create index.html
 - give it a title (typography)
-- create css file (main, styles etc)
+- create css file (main.css)
 - link to css file in html (head element)
 
 #### HTML (structure)

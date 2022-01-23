@@ -1,0 +1,33 @@
+/* 
+CSS BOX MODEL, PADDING, MARGIN, BORDER
+*/
+
+* {
+  margin: 0;
+}
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  background: red;
+  padding: 20px;
+  margin: 3rem;
+  /* border-style: solid;
+  border-width: 10px;
+  border-color: chartreuse; */
+  /* border-bottom: 0.5rem dotted blue; */
+  border-bottom-style: double;
+  border-bottom-color: green;
+  border-bottom-width: 20px;
+}
+p {
+  background: blue;
+  border: 1rem dashed red;
+  /* margin: 20px 40px; */
+  margin: 4rem 4px 50px 10px;
+  /* padding: 40px; */
+  /* padding: 30px 60px; */
+  padding: 5px 20px 50px 40px;
+}
