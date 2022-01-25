@@ -32,3 +32,10 @@
 - select .title-underline, add height, width, background, place in the center, add margin in the bottom
 
 - select section center, add width (90vw), max-width (1170px), place in the center
+
+#### Questions
+
+- Why section title in a seperate div?
+- Why 90vw and 1170px?
+- The purpose of section-center
+- Examples
