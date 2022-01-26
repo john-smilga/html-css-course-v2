@@ -35,7 +35,7 @@
 
 #### Questions
 
-- Why section title in a seperate div?
+- Why section title in a separate div?
 - Why 90vw and 1170px?
 - The purpose of section-center
 - Examples

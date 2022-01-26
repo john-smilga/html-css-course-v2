@@ -3,16 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
 }
+
 .nav {
   height: 5rem;
   background: #222;
   padding: 1rem 0;
 }
+
 .nav-title {
   font-size: 2rem;
   text-transform: uppercase;
@@ -25,6 +28,8 @@ body {
   width: 90vw;
   max-width: 1170px;
   margin: 0 auto;
+  /* border: 2px solid red;
+  padding-left: 2rem; */
 }
 
 .hero {
@@ -33,13 +38,14 @@ body {
       rgba(105, 62, 27, 0.5),
       rgba(105, 62, 27, 1)
     ),
-    url('./hero-bcg.jpg') center/cover;
+    url("./hero-bcg.jpg") center/cover;
   min-height: calc(100vh - 5rem);
 }
+
 .hero-center {
   width: 90vw;
   max-width: 1170px;
-  margin: 0rem auto;
+  margin: 0 auto;
   padding: 5rem 0;
   color: #fff;
 }
@@ -49,12 +55,10 @@ body {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
 }
-
 .hero-center p {
-  max-width: 35em;
   margin-bottom: 1.5rem;
+  max-width: 35em;
 }
-
 .hero-btn {
   background: transparent;
   border: 1px solid #fff;

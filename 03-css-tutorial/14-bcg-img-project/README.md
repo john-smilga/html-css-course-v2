@@ -3,7 +3,7 @@
 #### Setup
 
 - create folder (07-bcg-images)
-- create index.html (general structure - emmet !)
+- create index.html, general structure
 - give it a title (Background Images)
 - create css file (main.css)
 - link to css file in html (head element)
@@ -11,6 +11,10 @@
 #### Background Image
 
 - get image from pexels (coffee)
+
+#### Save Project
+
+- will add more features later
 
 #### HTML (structure)
 

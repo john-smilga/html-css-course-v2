@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
 }
-/* positions project  */
 
 .nav {
   height: 5rem;
@@ -16,9 +16,10 @@ body {
   padding: 1rem 0;
   position: sticky;
   top: 0;
-  /* will make sense after hero */
+  /* z-index later */
   z-index: 9;
 }
+
 .nav-title {
   font-size: 2rem;
   text-transform: uppercase;
@@ -31,12 +32,13 @@ body {
   width: 90vw;
   max-width: 1170px;
   margin: 0 auto;
+  /* border: 2px solid red;
+  padding-left: 2rem; */
 }
-/* positions project  */
 
 .hero {
-  background: rgb(105, 62, 27);
   min-height: calc(100vh - 5rem);
+  background: rgb(105, 62, 27);
   position: relative;
 }
 
@@ -51,18 +53,17 @@ body {
   }
 }
 
-/* positions project  */
-
 .hero-center {
   width: 90vw;
   max-width: 1170px;
-  margin: 0rem auto;
+  margin: 0 auto;
   padding: 5rem 0;
   color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* border: 2px solid red; */
   text-align: center;
 }
 
@@ -71,19 +72,11 @@ body {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
 }
-
-/* positions project  */
-
 .hero-center p {
-  /* two options */
-  /* set margin */
-  margin: 0 auto;
-  /* remove max-width */
   max-width: 35em;
+  margin: 0 auto;
   margin-bottom: 1.5rem;
-  /* background: red; */
 }
-
 .hero-btn {
   background: transparent;
   border: 1px solid #fff;
@@ -92,7 +85,7 @@ body {
   color: #fff;
   letter-spacing: 2px;
 }
-/* positions project  */
+
 .temp {
   min-height: 100vh;
   background: red;

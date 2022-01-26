@@ -2,11 +2,9 @@
 
 #### Setup
 
-- create folder (08-position-property)
-- create index.html, general structure
-- give it a title (Position Property)
-- create css file (styles.css)
-- link to css file in html (head element)
+- copy last project
+- rename to (08-position-property)
+- change title (Position Property)
 
 #### HTML (structure)
 

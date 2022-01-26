@@ -18,6 +18,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
+
 .title-underline {
   height: 0.25rem;
   width: 5rem;
@@ -28,7 +29,6 @@ body {
 
 .section-center {
   width: 90vw;
-  max-width: 1170px;
   margin: 0 auto;
-  /* background: red; */
+  max-width: 1170px;
 }
