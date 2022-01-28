@@ -1,0 +1,46 @@
+/* 
+Transtion 0 = 100%
+from start state to end state
+ANIMATION 0 1% 2% .... 100%
+ multiple states
+*/
+
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
+.transition {
+  background: red;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: yellow;
+  transform: translateX(100px);
+}
+.animation {
+  background: blue;
+  /* animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: 3; */
+  animation: move 5s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: red;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: yellow;
+  }
+  100% {
+    transform: translateX(20px);
+    background: green;
+  }
+}

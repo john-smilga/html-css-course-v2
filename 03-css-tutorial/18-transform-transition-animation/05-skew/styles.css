@@ -1,0 +1,21 @@
+/* 
+transform:translate(),scale()rotate(),skew()
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: skewX(40deg);
+}
+.two {
+  background: blue;
+  transform: skewY(40deg);
+}
+.three {
+  background: green;
+  transform: skew(40deg, 40deg);
+}
