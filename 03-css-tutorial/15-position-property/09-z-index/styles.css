@@ -1,0 +1,33 @@
+/* 
+z-index --- z-axis
+0 - default
+does not work on position:static;
+*/
+
+img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.banner {
+  margin: 20px;
+  width: 80vw;
+  height: 70vh;
+  border: 5px solid green;
+  position: relative;
+}
+.one {
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.two {
+  top: 10%;
+  left: 10%;
+  z-index: 2;
+}
+.three {
+  top: 20%;
+  left: 20%;
+  z-index: 1;
+}
