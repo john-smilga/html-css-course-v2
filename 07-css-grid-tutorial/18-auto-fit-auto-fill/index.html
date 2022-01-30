@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grid Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* auto-fill keeps creating  auto-fit only fits */
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+      .container-1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+    </style>
+  </head>
+  <body>
+    <h1>auto fit</h1>
+    <div class="container">
+      <div class="cell cell-1">cell 1</div>
+      <div class="cell cell-2">cell 1</div>
+      <div class="cell cell-3">cell 1</div>
+    </div>
+    <h1>auto fill</h1>
+    <div class="container-1">
+      <div class="cell cell-1">cell 1</div>
+    </div>
+  </body>
+</html>

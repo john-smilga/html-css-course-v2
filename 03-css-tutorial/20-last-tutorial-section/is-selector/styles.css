@@ -5,13 +5,3 @@ The :is() CSS pseudo-class function takes a selector list as its argument, and s
 
 
 */
-
-/* nav h2:hover,
-header h2:hover,
-section h2:hover {
-  color: red;
-} */
-
-:is(nav, header, section) h2:hover {
-  color: red;
-}
