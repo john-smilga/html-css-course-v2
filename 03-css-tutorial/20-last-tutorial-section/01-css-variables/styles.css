@@ -1,0 +1,42 @@
+/* 
+CSS VARIABLES AKA CUSTOM PROPERTIES
+allow to store value in one place and re-use it later
+--varName:value
+property:var(--varName);
+scope
+:root{} === global
+element === local
+any property
+*/
+:root {
+  --primaryColor: #2539f1;
+  --cl-secondary: green;
+  --mainTransition: all 1s linear;
+  --mainSpacing: 5px;
+}
+h1 {
+  color: var(--primaryColor);
+}
+h2 {
+  color: var(--primaryColor);
+}
+h3 {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+p {
+  letter-spacing: var(--mainSpacing);
+  transition: var(--mainTransition);
+}
+h3:hover {
+  color: var(--cl-secondary);
+}
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+h3 {
+  color: var(--primaryRed);
+}

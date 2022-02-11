@@ -1,0 +1,25 @@
+/* 
+transition: change over time
+transition-property:
+transition-duration:
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+  transition-property: background;
+  transition-duration: 4s;
+}

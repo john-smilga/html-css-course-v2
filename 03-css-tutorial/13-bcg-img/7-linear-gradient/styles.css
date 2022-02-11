@@ -1,0 +1,60 @@
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(to top, blue, green);
+}
+.two {
+  background: linear-gradient(to left, blue, green, red, yellow, #f15025);
+}
+.three {
+  background: linear-gradient(300deg, red, green);
+}
+.four {
+  background: linear-gradient(to top left, red, green);
+}
+.five {
+  background: linear-gradient(blue 20%, yellow 70%);
+}
+.six {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+}
+/* * {
+  margin: 0;f
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  color: white;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.big-img {
+  background: url("./big.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-img {
+  background: url("./images/folder-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("./big.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */

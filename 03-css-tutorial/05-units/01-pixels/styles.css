@@ -1,0 +1,13 @@
+/*  PIXELS - absolute values, one dot on the screen 
+FONT-SIZE - size of the font
+WIDTH - width of an element 
+HEIGHT - height of an element 
+*/
+
+h1 {
+  font-size: 60px;
+  background: blue;
+  color: white;
+  width: 1000px;
+  height: 800px;
+}

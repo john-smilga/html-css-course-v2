@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  float: right;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+}
+.four {
+  background: yellow;
+}
+h1 {
+  clear: both;
+}

@@ -1,0 +1,22 @@
+/* 
+VIEWPORT UNITS
+vh - height - percent of the screen, 
+vw - width - percent of the screen
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: green;
+  height: 100vh;
+  width: 100vw;
+}
+.about {
+  background: blue;
+  height: 43vh;
+  width: 54vw;
+}

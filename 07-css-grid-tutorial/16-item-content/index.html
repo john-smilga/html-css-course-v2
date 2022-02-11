@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grid Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* align-items justify-items --- content within items*/
+      /* justify-self align-self --- single item content */
+      .container {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: flex-start;
+        justify-items: flex-start;
+      }
+      .cell-1 {
+        justify-self: end;
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cell cell-1">cell 1</div>
+      <div class="cell cell-2">cell 2</div>
+      <div class="cell cell-3">cell 3</div>
+      <div class="cell cell-4">cell 4</div>
+      <div class="cell cell-5">cell 5</div>
+      <div class="cell cell-6">cell 6</div>
+    </div>
+  </body>
+</html>

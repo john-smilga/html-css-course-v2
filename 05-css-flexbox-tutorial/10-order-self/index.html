@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- align-self -->
+
+    <style>
+      .container {
+        display: flex;
+        height: 500px;
+        align-items: flex-end;
+      }
+      .box-5 {
+        align-self: flex-start;
+      }
+      .box-3 {
+        align-self: stretch;
+      }
+      .box-1 {
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--parent = flex-container  -->
+    <div class="container">
+      <!-- children = flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+      <!-- <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div> -->
+    </div>
+  </body>
+</html>

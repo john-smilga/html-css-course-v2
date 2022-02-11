@@ -1,0 +1,77 @@
+/* 
+
+- light grey #f1f5f9
+- white #fff
+- light pink #ffe8f1
+- dark pink #ff69a6
+- light blue #ecf4ff
+- dark blue #68a3ff
+
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #f1f5f9;
+}
+
+.card {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  max-width: 300px;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  margin: 3rem auto;
+}
+
+.card-1 {
+  border-color: #ff69a6;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  /* background: red; */
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background: #ff69a6;
+}
+
+.title {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.text {
+  line-height: 1.5;
+  color: grey;
+}
+
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+}
+
+.btn-pink {
+  background: #ffe8f1;
+  color: #ff69a6;
+}
+.btn-blue {
+  background: #ecf4ff;
+  color: #68a3ff;
+}
+
+.card-2 .icon {
+  background: #68a3ff;
+}
+
+.card-2 {
+  border-color: #68a3ff;
+}

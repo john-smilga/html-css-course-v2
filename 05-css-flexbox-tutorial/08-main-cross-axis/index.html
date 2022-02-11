@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox Tutorial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- MAIN AXIS / CROSS AXIS -->
+
+    <style>
+      .container {
+        height: 300px;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container-1 {
+        height: 800px;
+        border: 5px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--parent = flex-container  -->
+    <div class="container">
+      <!-- children = flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+      <!-- <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div>
+      <div class="box generic">G</div> -->
+    </div>
+    <div class="container-1">
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+    </div>
+  </body>
+</html>

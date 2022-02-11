@@ -1,0 +1,27 @@
+/* 
+transition: change over time
+transition-delay:
+shorthand
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+  transition: all 2s;
+}
+.three:hover {
+  background: coral;
+  border-radius: 50%;
+  transform: scale(1.2);
+}

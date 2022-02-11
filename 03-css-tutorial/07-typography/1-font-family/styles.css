@@ -1,0 +1,12 @@
+/* 
+font-size - size of the fonts
+font-family - describes the font of the element
+*/
+
+body {
+  font-family: Helvetica;
+}
+h1 {
+  font-family: Verdana;
+  font-size: 50px;
+}

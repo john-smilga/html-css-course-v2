@@ -1,0 +1,12 @@
+/* % - percent. RELATIVE UNIT/VALUE. Depends on the parent   */
+.outer {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  background: red;
+}
